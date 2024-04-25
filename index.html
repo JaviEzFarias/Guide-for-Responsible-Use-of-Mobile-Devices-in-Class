@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía para un Uso Responsable de Dispositivos Móviles en Clase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #555;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      color: #777;
+    }
+    p {
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #888;
+    }
+    .lang-toggle {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .flag {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+
+    <div class="lang-toggle">
+        <a href="#" onclick="toggleLanguage('en')"><img class="flag" src="https://emojicdn.elk.sh/🇺🇸" alt="English Flag"></a> | 
+        <a href="#" onclick="toggleLanguage('es')"><img class="flag" src="https://emojicdn.elk.sh/🇦🇷" alt="Spanish Flag"></a>
+      </div>
+
+    <h1 id="title">Guía para un Uso Responsable de Dispositivos Móviles en Clase</h1>
+
+    <p id="greeting">¡Hola a todos!</p>
+
+    <p id="intro">¿Alguna vez te has preguntado cómo el uso de dispositivos móviles puede afectar tu rendimiento académico y tu experiencia en clase? Como estudiantes preocupados por este tema, queremos compartir algunas pautas sobre cómo usar los dispositivos móviles de manera responsable en el aula.</p>
+
+    <h2 id="importance">¿Por qué es importante esto?</h2>
+
+    <p id="negative-effects">El uso excesivo de dispositivos móviles en clase puede tener consecuencias negativas:</p>
+
+    <ul>
+      <li id="distraction">Distracción: Mirar constantemente el teléfono puede hacer que pierdas el hilo de la clase y te desconectes del material educativo.</li>
+      <li id="academic-performance">Rendimiento académico bajo: La falta de atención en clase puede afectar tu capacidad para comprender y retener información.</li>
+      <li id="physical-issues">Problemas físicos: El uso prolongado de dispositivos móviles puede provocar fatiga visual, dolores de cabeza y problemas posturales.</li>
+      <li id="mental-issues">Problemas mentales: La dependencia de los dispositivos móviles puede contribuir al estrés, la ansiedad y la disminución de la autoestima.</li>
+    </ul>
+
+    <h2 id="what-to-do">¿Qué puedes hacer?</h2>
+
+    <p id="suggestions">Aquí hay algunas sugerencias para un uso responsable de los dispositivos móviles en clase:</p>
+
+    <ul>
+      <li id="limit-usage">Limita su uso: Deberías usar los dispositivos solo cuando sea necesario para fines educativos o bajo la supervisión del profesor.</li>
+      <li id="respect">Mantén el respeto: Deberías respetar el tiempo y la atención de tus compañeros y profesores, evitando distracciones innecesarias.</li>
+      <li id="prioritize-learning">Prioriza el aprendizaje: Deberías usar los dispositivos como herramientas para mejorar tu aprendizaje, buscando información relevante y participando en actividades relacionadas con la clase.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p id="footer-text">Creado por Javier Farias, Fabrizio Bonaventura & Luis Rosales</p>
+  </footer>
+
+  <script>
+    function toggleLanguage(language) {
+      if (language === 'es') {
+        document.getElementById('title').innerText = 'Guía para un Uso Responsable de Dispositivos Móviles en Clase';
+        document.getElementById('greeting').innerText = '¡Hola a todos!';
+        document.getElementById('intro').innerText = '¿Alguna vez te has preguntado cómo el uso de dispositivos móviles puede afectar tu rendimiento académico y tu experiencia en clase? Como estudiantes preocupados por este tema, queremos compartir algunas pautas sobre cómo usar los dispositivos móviles de manera responsable en el aula.';
+        document.getElementById('importance').innerText = '¿Por qué es importante esto?';
+        document.getElementById('negative-effects').innerText = 'El uso excesivo de dispositivos móviles en clase puede tener consecuencias negativas:';
+        document.getElementById('distraction').innerText = 'Distracción: Mirar constantemente el teléfono puede hacer que pierdas el hilo de la clase y te desconectes del material educativo.';
+        document.getElementById('academic-performance').innerText = 'Rendimiento académico bajo: La falta de atención en clase puede afectar tu capacidad para comprender y retener información.';
+        document.getElementById('physical-issues').innerText = 'Problemas físicos: El uso prolongado de dispositivos móviles puede provocar fatiga visual, dolores de cabeza y problemas posturales.';
+        document.getElementById('mental-issues').innerText = 'Problemas mentales: La dependencia de los dispositivos móviles puede contribuir al estrés, la ansiedad y la disminución de la autoestima.';
+        document.getElementById('what-to-do').innerText = '¿Qué puedes hacer?';
+        document.getElementById('suggestions').innerText = 'Aquí hay algunas sugerencias para un uso responsable de los dispositivos móviles en clase:';
+        document.getElementById('limit-usage').innerText = 'Limita su uso: Deberías usar los dispositivos solo cuando sea necesario para fines educativos o bajo la supervisión del profesor.';
+        document.getElementById('respect').innerText = 'Mantén el respeto: Deberías respetar el tiempo y la atención de tus compañeros y profesores, evitando distracciones innecesarias.';
+        document.getElementById('prioritize-learning').innerText = 'Prioriza el aprendizaje: Deberías usar los dispositivos como herramientas para mejorar tu aprendizaje, buscando información relevante y participando en actividades relacionadas con la clase.';
+        document.getElementById('footer-text').innerText = 'Creado por Javier Farias, Fabrizio Bonaventura & Luis Rosales';
+      } else {
+        document.getElementById('title').innerText = 'Guide for Responsible Use of Mobile Devices in Class';
+        document.getElementById('greeting').innerText = 'Hello everyone!';
+        document.getElementById('intro').innerText = 'Have you ever wondered how the use of mobile devices can affect your academic performance and classroom experience? As students concerned about this issue, we want to share some guidelines on how to use mobile devices responsibly in the classroom.';
+        document.getElementById('importance').innerText = 'Why is this important?';
+        document.getElementById('negative-effects').innerText = 'The excessive use of mobile devices in class can have negative consequences:';
+        document.getElementById('distraction').innerText = 'Distraction: Constantly checking your phone can make you lose track of the class and disconnect from the educational material.';
+        document.getElementById('academic-performance').innerText = 'Low academic performance: Lack of attention in class can affect your ability to understand and retain information.';
+        document.getElementById('physical-issues').innerText = 'Physical problems: Prolonged use of mobile devices can cause visual fatigue, headaches, and postural problems.';
+        document.getElementById('mental-issues').innerText = 'Mental problems: Dependence on mobile devices can contribute to stress, anxiety, and decreased self-esteem.';
+        document.getElementById('what-to-do').innerText = 'What can you do?';
+        document.getElementById('suggestions').innerText = 'Here are some suggestions for responsible use of mobile devices in class:';
+        document.getElementById('limit-usage').innerText = 'Limit usage: You should use devices only when necessary for educational purposes or under the teacher\'s supervision.';
+        document.getElementById('respect').innerText = 'Respect others: You should respect the time and attention of your peers and teachers by avoiding unnecessary distractions.';
+        document.getElementById('prioritize-learning').innerText = 'Prioritize learning: You should use devices as tools to enhance your learning, seeking relevant information and participating in class-related activities.';
+        document.getElementById('footer-text').innerText = 'Created by Javier Farias, Fabrizio Bonaventura & Luis Rosales';
+      }
+    }
+  </script>
+</body>
+</html>
